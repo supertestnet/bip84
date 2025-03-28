@@ -9,3 +9,6 @@ And I used webpack to compile it for the web. What you see here is the result
 
 # How to try it
 
+Click here: https://supertestnet.github.io/bip84/
+
+Then open your console to see some cool stuff
