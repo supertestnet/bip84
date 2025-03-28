@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://bundle.run/buffer@6.0.3"></script>
+    <script>var Buffer = buffer.Buffer;</script>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+  </head>
+  <body>
+    <script src="./main.js"></script>
+    <script>
+      var zpub = "zpub6n5wAUyUwuD5sSkXzLdnxJyUi8VkquXQBVvoSsVGJw8b63SNUSnR6BVLs1nD6RMvJhWhiC2e3Y3CJHiaZWHin4TknHJKQ6RcZDfB9aYEuod";
+      var account0 = new bip84.fromZPub( zpub );
+      console.log( "Account 1, first receiving address = m/84'/1'/0'/0/0" );
+      console.log( "Address:", account0.getAddress( 0 ) );
+    </script>
+  </body>
+</html>
