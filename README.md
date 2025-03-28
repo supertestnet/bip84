@@ -11,4 +11,4 @@ And I used webpack to compile it for the web. What you see here is the result
 
 Click here: https://supertestnet.github.io/bip84/
 
-Then open your console to see some cool stuff
+Then open your browser console to see some cool stuff
